@@ -2,3 +2,4 @@ streamlit==1.52.2
 yfinance==1.0
 finnhub-python==2.4.26
 pandas==2.3.3
+resend==2.19.0
