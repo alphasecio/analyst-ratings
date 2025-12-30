@@ -83,6 +83,7 @@ with st.spinner('🔄 Fetching latest analyst ratings and price targets...'):
         st.dataframe(
             df_sorted,
             width='stretch',
+            height=1800,
             hide_index=True,
             column_config={
                 "Symbol": st.column_config.TextColumn("Symbol", width="small"),
